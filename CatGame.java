@@ -122,6 +122,12 @@ public class CatGame {
                 System.out.println(player.getNickname() + ", you have died from low energy (and dysentery/typhoid/cholera/river crossing). This could have occurred as a result of many factors. Don't worry, you will have the chance to enter the Jungle again.");
                 play = "0";
             }
+            
+            int randomNumber2 = random.nextInt(20);
+            if (randomNumber == 1){
+                System.out.println("You had to move to another jungle, sadly. Goodbye.");
+                break;
+            }
             System.out.println();
             days++;
         }
