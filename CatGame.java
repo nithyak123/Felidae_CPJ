@@ -120,6 +120,7 @@ public class CatGame {
                 play = "0";
             }
             System.out.println();
+            days++;
         }
         
         System.out.println("Well done. You've journeyed the Jungle.");
