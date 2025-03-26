@@ -106,6 +106,9 @@ public class CatGame {
                     ((Tiger) player).swim();
                 }
             }
+            else if (choice1 == 0){
+                break;
+            }
             int randomNumber = random.nextInt(10);
             if (randomNumber == 1){
                 player.habitatLoss();
